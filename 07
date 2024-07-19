@@ -1,0 +1,7 @@
+def is_year_leap(year):
+    year = int(input('введи год\n'))
+    if year % 4 == 0:
+        print('это високосный год')
+    else:
+        print('это не високосный год')
+is_year_leap('2024')

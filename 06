@@ -1,0 +1,5 @@
+def count(a,b,c):
+    summa = a + b + c
+   
+summa = count(2, 4, 6)
+

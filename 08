@@ -1,0 +1,7 @@
+def count_square(side):
+    per = side * 4
+    plo = side * side
+    return per, plo
+print(count_square(int(input('введите число\n'))))
+
+    

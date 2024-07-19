@@ -1,0 +1,9 @@
+def find_symbols(text):
+    summa = 0
+    for i in text:
+        if i == '$':
+            summa += 1
+    return summa 
+print(find_symbols('my name is $'))
+find_symbols('my age is $')
+find_symbols('my $ hobby is $')
